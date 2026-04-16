@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8821483980030727407}
   - component: {fileID: 5173824006969990906}
   - component: {fileID: 3064136102980253342}
-  - component: {fileID: -3867553033390563268}
+  - component: {fileID: -3557937678358035055}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Ground
@@ -114,7 +114,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-3867553033390563268
+--- !u!114 &-3557937678358035055
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8434763329108534192}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec8a0c62e6c17bb4c9b365e1b52ef339, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a13bf0c3f3c3504c85a87618381697c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CubeMoves
   moveSpeed: 5
