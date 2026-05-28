@@ -8,7 +8,7 @@ public class TweenCoin : MonoBehaviour
     {
         //코인이 생성 되었을 때 살짝 랜덤한 위치로 튀도록 목표 위치를 잡는다.
         Vector3 randomPosition = transform.position;
-        + new Vector3(Random.Range(-1f, 1f), 0, Random.Range(-1f, 1f));
+        new Vector3(Random.Range(-1f, 1f), 0, Random.Range(-1f, 1f));
 
         //코인이 바닥에 떨어지는 것처럼 점프 이동한다
         //DOjump(목표 위치 , 점프 높이 , 점프 횟수 , 시간)
